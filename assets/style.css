@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color:rgb(61, 61, 61);
+    font-size: 14px;
+}
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 30px;
+    color: #fff;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 38px;
+    font-weight: 30px;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 100px;
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.conteiner{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 35px auto;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url("../lesson9/img/9ea59371-c503-46a8-99d1-a4bcc7c3e0e0.jpg") center center no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header-inner{
+    width: 100%;
+}
+
+.header-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-logo > p{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-nav-list{
+    display: flex;
+}
+
+li{
+    display:inline-flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-nav-mini{
+    margin: 0 15px;
+    color: #fff;
+}
+
+.header-intro{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cnopca{
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 15px 0;
+    border: #fff solid 2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.header-intro > p{
+    margin: 30px 0;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+
+
+.main-inner{
+    height: 100%;
+}
+
+.main-intro{
+    margin: 100px 0 0 0;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+    
+.main-intro-line{
+    margin: 35px auto;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(56, 56, 56);
+}
+
+.main-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.main-card{
+    width: 350px;
+    margin: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card-img{
+   width: 90px;
+   height: 90px; 
+   border: lightgray solid 2px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card-img > i{
+    font-size: 47px;
+    color: crimson;
+
+}
+
+.main-card:hover>.card-img{
+    background-color: crimson;
+
+}
+
+.main-card:hover>.card-img i{
+    color: #fff;
+}
+
+.main-card>h2{
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+
+.main-card>p{
+    text-align: center;
+}
+.footer{
+    height: 100%;
+    width: 100%;
+    background-color: crimson;
+}
+
+.footer-iner{
+    padding: 50px 0;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-sotial{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sotial-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.sotial-icon>i{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+
+.sotial-icon:hover>i{
+    color: crimson;
+    border: #fff solid 2px;
+    border-radius: 50%;
+}
+
+.sotial-icon:hover{
+    background-color: #fff;
+    
+    
+}
+
+.data{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding: 60px;
+}
+
+@media screen and (max-width: 570px){
+    .header-top{
+         justify-content: center;
+    }
+
+    .header-nav{
+        color: rgba(127, 255, 212, 0);
+
+    }
+
+    .main-card{
+        justify-content: center;
+    }
+
+}
+
