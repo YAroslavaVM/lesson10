@@ -61,7 +61,7 @@ a{
 .header{
     width: 100%;
     height: 100vh;
-    background: url("./assets/img/9ea59371-c503-46a8-99d1-a4bcc7c3e0e0.jpg") center center no-repeat;
+    background: url("./img/9ea59371-c503-46a8-99d1-a4bcc7c3e0e0.jpg") center center no-repeat;
     background-size: cover;
     font-family: 'Roboto Slab', serif;
 }
